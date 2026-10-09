@@ -1,0 +1,16 @@
+(agent_new) C:\Users\Kirill\Documents\python\LLmAgents\AgentsLLM-course\2practise>pytest test_server.py -v
+================================================================== test session starts ===================================================================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Kirill\Documents\python\agent_new\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Kirill\Documents\python\LLmAgents\AgentsLLM-course\2practise
+plugins: anyio-4.15.1
+collected 6 items                                                                                                                                         
+
+test_server.py::test_ocr_init_success PASSED                                                                                                        [ 16%]
+test_server.py::test_ocr_init_error PASSED                                                                                                          [ 33%]
+test_server.py::test_ocr_extract_text_concise PASSED                                                                                                [ 50%]
+test_server.py::test_ocr_extract_text_error PASSED                                                                                                  [ 66%]
+test_server.py::test_ocr_estimate_width_success PASSED                                                                                              [ 83%]
+test_server.py::test_ocr_get_bboxes_error PASSED                                                                                                    [100%]
+
+=================================================================== 6 passed in 0.59s ====================================================================
